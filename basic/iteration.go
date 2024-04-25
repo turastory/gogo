@@ -1,8 +1,6 @@
 package basic
 
-const repeatCnt = 5
-
-func Repeat(str string) (result string) {
+func Repeat(str string, repeatCnt int) (result string) {
 	for i := 0; i < repeatCnt; i++ {
 		result += str
 	}
