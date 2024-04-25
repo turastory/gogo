@@ -2,5 +2,5 @@
 trap 'exit' INT
 while true
 do
-  fswatch -o ./*.go | go test ./...
+  fswatch -o ./**/*.go | go test ./...
 done
