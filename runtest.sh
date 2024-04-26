@@ -2,5 +2,5 @@
 trap 'exit' INT
 while true
 do
-  fswatch -o ./**/*.go | echo "======" && go test -cover ./...
+  fswatch -o ./**/*.go | go test -cover ./...
 done
